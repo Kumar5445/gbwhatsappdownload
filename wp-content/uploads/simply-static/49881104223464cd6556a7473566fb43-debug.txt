@@ -1,0 +1,1096 @@
+[2024-08-18 18:54:03] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-18 18:54:03] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-08-18 18:54:03] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-18 18:54:05] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-18 18:54:05] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-18 18:54:05] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-18 18:54:05] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243\
+[2024-08-18 18:54:05] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/gbwhatsappdownload/
+[2024-08-18 18:54:05] [class-ss-setup-task.php:137] File C:\xampp\htdocs\gbwhatsappdownload\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-18 18:54:05] [class-rank-math-integration.php:43] Adding sitemap URL to queue: http://localhost/gbwhatsappdownload/sitemap_index.xml
+[2024-08-18 18:54:05] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-18 18:54:05] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-18 18:54:05] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-18 18:54:05] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-08-18 18:54:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/
+[2024-08-18 18:54:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-08-18 18:54:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2434d6b7b6-329oHJ.tmp
+[2024-08-18 18:54:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/?simply_static_page=1
+[2024-08-18 18:54:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/?simply_static_page=1
+[2024-08-18 18:54:06] [class-ss-url-fetcher.php:103] Filesize: 57330 bytes
+[2024-08-18 18:54:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:06] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-08-18 18:54:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2434d6b7b6-329oHJ.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/index.html
+[2024-08-18 18:54:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:06] [class-ss-fetch-urls-task.php:159] Adding 32 URLs to the queue
+[2024-08-18 18:54:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:07] [class-ss-page.php:118] Checking Content Identical:814fc657913a71261fb9f8687ad848969557e859===. Value: FALSE
+[2024-08-18 18:54:07] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-18 18:54:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-08-18 18:54:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:07] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-18 18:54:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/sitemap_index.xml
+[2024-08-18 18:54:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-08-18 18:54:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2434f57582-oQWMjQ.tmp
+[2024-08-18 18:54:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/sitemap_index.xml?simply_static_page=3
+[2024-08-18 18:54:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/sitemap_index.xml?simply_static_page=3
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:103] Filesize: 711 bytes
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2434f57582-oQWMjQ.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/sitemap_index.xml
+[2024-08-18 18:54:08] [class-ss-rank-math-sitemap-handler.php:99] Getting content for main-sitemap.xsl
+[2024-08-18 18:54:08] [class-ss-rank-math-sitemap-handler.php:110] Created C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/main-sitemap.xsl
+[2024-08-18 18:54:08] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:08] [class-ss-page.php:118] Checking Content Identical:2789b69ac357c1375ed3e8a4b6927f70b5e9b9e0===. Value: FALSE
+[2024-08-18 18:54:08] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-08-18 18:54:08] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-18 18:54:08] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-18 18:54:08] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:69] Total pages: 38; Pages remaining: 35
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/
+[2024-08-18 18:54:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 38
+[2024-08-18 18:54:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435066223-iIBPF8.tmp
+[2024-08-18 18:54:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/?simply_static_page=4
+[2024-08-18 18:54:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/?simply_static_page=4
+[2024-08-18 18:54:09] [class-ss-url-fetcher.php:103] Filesize: 42308 bytes
+[2024-08-18 18:54:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:09] [class-ss-url-fetcher.php:233] New filename for static page: /category/aero-whatsapp-apk/index.html
+[2024-08-18 18:54:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435066223-iIBPF8.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/aero-whatsapp-apk/index.html
+[2024-08-18 18:54:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:10] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-08-18 18:54:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:10] [class-ss-page.php:118] Checking Content Identical:0e5b77f2a8fd114febe2d6632f9a0fc7a90d7939===. Value: FALSE
+[2024-08-18 18:54:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/
+[2024-08-18 18:54:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 38
+[2024-08-18 18:54:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435267b9c-RUKHQo.tmp
+[2024-08-18 18:54:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/?simply_static_page=5
+[2024-08-18 18:54:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/?simply_static_page=5
+[2024-08-18 18:54:11] [class-ss-url-fetcher.php:103] Filesize: 42278 bytes
+[2024-08-18 18:54:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:11] [class-ss-url-fetcher.php:233] New filename for static page: /category/gbwhatsapp-apk/index.html
+[2024-08-18 18:54:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435267b9c-RUKHQo.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/gbwhatsapp-apk/index.html
+[2024-08-18 18:54:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:11] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-08-18 18:54:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:12] [class-ss-page.php:118] Checking Content Identical:be4e8937946131473bd7f227e48c6c65fa80085b===. Value: FALSE
+[2024-08-18 18:54:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/og-whatsapp/
+[2024-08-18 18:54:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 38
+[2024-08-18 18:54:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435437901-MjQhK6.tmp
+[2024-08-18 18:54:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/og-whatsapp/?simply_static_page=6
+[2024-08-18 18:54:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/og-whatsapp/?simply_static_page=6
+[2024-08-18 18:54:13] [class-ss-url-fetcher.php:103] Filesize: 42248 bytes
+[2024-08-18 18:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:13] [class-ss-url-fetcher.php:233] New filename for static page: /category/og-whatsapp/index.html
+[2024-08-18 18:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435437901-MjQhK6.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/og-whatsapp/index.html
+[2024-08-18 18:54:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:13] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-08-18 18:54:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:14] [class-ss-page.php:118] Checking Content Identical:45d6ea897d93c0d2679a6c1e13af5e3c11d96d0c===. Value: FALSE
+[2024-08-18 18:54:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/whatsapp-plus/
+[2024-08-18 18:54:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 38
+[2024-08-18 18:54:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435622019-jJjUsF.tmp
+[2024-08-18 18:54:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/whatsapp-plus/?simply_static_page=7
+[2024-08-18 18:54:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/whatsapp-plus/?simply_static_page=7
+[2024-08-18 18:54:15] [class-ss-url-fetcher.php:103] Filesize: 42268 bytes
+[2024-08-18 18:54:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:15] [class-ss-url-fetcher.php:233] New filename for static page: /category/whatsapp-plus/index.html
+[2024-08-18 18:54:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435622019-jJjUsF.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/whatsapp-plus/index.html
+[2024-08-18 18:54:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:15] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-08-18 18:54:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:16] [class-ss-page.php:118] Checking Content Identical:57437ce7bb596d3f718e0b3df436e66f2a1f687c===. Value: FALSE
+[2024-08-18 18:54:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/2024/08/18/hello-world/
+[2024-08-18 18:54:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 38
+[2024-08-18 18:54:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243582f6f3-Y4j8hk.tmp
+[2024-08-18 18:54:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/2024/08/18/hello-world/?simply_static_page=8
+[2024-08-18 18:54:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/2024/08/18/hello-world/?simply_static_page=8
+[2024-08-18 18:54:17] [class-ss-url-fetcher.php:103] Filesize: 52421 bytes
+[2024-08-18 18:54:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:17] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/18/hello-world/index.html
+[2024-08-18 18:54:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243582f6f3-Y4j8hk.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/2024/08/18/hello-world/index.html
+[2024-08-18 18:54:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:17] [class-ss-fetch-urls-task.php:159] Adding 37 URLs to the queue
+[2024-08-18 18:54:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:18] [class-ss-page.php:118] Checking Content Identical:02075e62eb7e4cc40ad9b4da174c8b73b6ec8ceb===. Value: FALSE
+[2024-08-18 18:54:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/uncategorized/
+[2024-08-18 18:54:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 38
+[2024-08-18 18:54:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435a258cf-M1uR0Z.tmp
+[2024-08-18 18:54:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/uncategorized/?simply_static_page=9
+[2024-08-18 18:54:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/uncategorized/?simply_static_page=9
+[2024-08-18 18:54:19] [class-ss-url-fetcher.php:103] Filesize: 45600 bytes
+[2024-08-18 18:54:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:19] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-08-18 18:54:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435a258cf-M1uR0Z.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/uncategorized/index.html
+[2024-08-18 18:54:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:20] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-08-18 18:54:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:20] [class-ss-page.php:118] Checking Content Identical:c4077f8251dd60b7d6e8e02e88362b8d67960458===. Value: FALSE
+[2024-08-18 18:54:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/terms-of-use/
+[2024-08-18 18:54:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 38
+[2024-08-18 18:54:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435cbb6da-CaPNeI.tmp
+[2024-08-18 18:54:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/terms-of-use/?simply_static_page=10
+[2024-08-18 18:54:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/terms-of-use/?simply_static_page=10
+[2024-08-18 18:54:21] [class-ss-url-fetcher.php:103] Filesize: 51501 bytes
+[2024-08-18 18:54:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:21] [class-ss-url-fetcher.php:233] New filename for static page: /terms-of-use/index.html
+[2024-08-18 18:54:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435cbb6da-CaPNeI.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/terms-of-use/index.html
+[2024-08-18 18:54:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:22] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-08-18 18:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:22] [class-ss-page.php:118] Checking Content Identical:aecc3d7bdd0b937a1e7c050d513eac5066046d47===. Value: FALSE
+[2024-08-18 18:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/dmca/
+[2024-08-18 18:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 38
+[2024-08-18 18:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2435eaf683-5TS4oP.tmp
+[2024-08-18 18:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/dmca/?simply_static_page=11
+[2024-08-18 18:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/dmca/?simply_static_page=11
+[2024-08-18 18:54:23] [class-ss-url-fetcher.php:103] Filesize: 51674 bytes
+[2024-08-18 18:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /dmca/index.html
+[2024-08-18 18:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2435eaf683-5TS4oP.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/dmca/index.html
+[2024-08-18 18:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:54:24] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-08-18 18:54:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:54:25] [class-ss-page.php:118] Checking Content Identical:ff3877467e8f4a727aa4b6c46484a95f8b14ddad===. Value: FALSE
+[2024-08-18 18:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/contact-us/
+[2024-08-18 18:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 38
+[2024-08-18 18:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c24361ca524-AGw9l5.tmp
+[2024-08-18 18:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/contact-us/?simply_static_page=12
+[2024-08-18 18:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/contact-us/?simply_static_page=12
+[2024-08-18 18:54:55] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-18 18:54:55] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received
+[2024-08-18 18:54:55] [class-ss-url-fetcher.php:107] object(WP_Error)#2160 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-08-18 18:54:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/about-us/
+[2024-08-18 18:54:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 38
+[2024-08-18 18:54:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:54:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243834e443-akrdoX.tmp
+[2024-08-18 18:54:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/about-us/?simply_static_page=13
+[2024-08-18 18:54:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/about-us/?simply_static_page=13
+[2024-08-18 18:55:13] [class-ss-url-fetcher.php:103] Filesize: 51311 bytes
+[2024-08-18 18:55:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:55:13] [class-ss-url-fetcher.php:233] New filename for static page: /about-us/index.html
+[2024-08-18 18:55:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243834e443-akrdoX.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/about-us/index.html
+[2024-08-18 18:55:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:15] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-08-18 18:55:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:16] [class-ss-page.php:118] Checking Content Identical:a2d6fa4e720189167fd2a187c7b3d6e1696cdfe8===. Value: FALSE
+[2024-08-18 18:55:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/disclaimer/
+[2024-08-18 18:55:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 38
+[2024-08-18 18:55:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243945cd13-yizHo6.tmp
+[2024-08-18 18:55:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/disclaimer/?simply_static_page=14
+[2024-08-18 18:55:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/disclaimer/?simply_static_page=14
+[2024-08-18 18:55:17] [class-ss-url-fetcher.php:103] Filesize: 52325 bytes
+[2024-08-18 18:55:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:55:17] [class-ss-url-fetcher.php:233] New filename for static page: /disclaimer/index.html
+[2024-08-18 18:55:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243945cd13-yizHo6.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/disclaimer/index.html
+[2024-08-18 18:55:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:18] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-08-18 18:55:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:1a308f0042919759ba38a2627ff159c2cc3d3166===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app-2-1.png
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439765881-xh60on.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app-2-1.png?simply_static_page=15
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app-2-1.png?simply_static_page=15
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 169699 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app-2-1.png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439765881-xh60on.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app-2-1.png
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:3b3134c0c48efbff3da723ade8759a60d7b54d8c===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app1_-1.png
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c24397760a0-bpMrlC.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app1_-1.png?simply_static_page=16
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app1_-1.png?simply_static_page=16
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 31325 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app1_-1.png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c24397760a0-bpMrlC.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app1_-1.png
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:928073f9ad0f66eb23350b814f3a9aa3021d56af===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app2_.png
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439786c61-VWXGvj.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app2_.png?simply_static_page=17
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app2_.png?simply_static_page=17
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 33201 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app2_.png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439786c61-VWXGvj.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app2_.png
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:0e19442aedcca2cce009da06c5ca4407cd46f594===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app3_.png
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439795720-eUX1Nd.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app3_.png?simply_static_page=18
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app3_.png?simply_static_page=18
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 57679 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app3_.png
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439795720-eUX1Nd.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/uploads/2024/08/gbwhatsappdownload.vercel.app3_.png
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:1cbd05186a10a688b99d8173e9bbf1c397a43551===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery.min.js
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c24397a35bc-UlEwL7.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery.min.js?simply_static_page=19
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery.min.js?simply_static_page=19
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c24397a35bc-UlEwL7.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-includes/js/jquery/jquery.min.js
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c24397c6bdb-G45t4R.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?simply_static_page=20
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?simply_static_page=20
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 8524 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c24397c6bdb-G45t4R.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:19] [class-ss-page.php:118] Checking Content Identical:898f2ff50a92069b4d5886ee0b378f36e8f0c906===. Value: FALSE
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-08-18 18:55:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 38
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c24397e272c-dfTiwp.tmp
+[2024-08-18 18:55:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=21
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=21
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:103] Filesize: 6957 bytes
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-08-18 18:55:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c24397e272c-dfTiwp.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:20] [class-ss-page.php:118] Checking Content Identical:0c78a77e06be020674ca82d28b02a712615f7b35===. Value: FALSE
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/dist/modal.js
+[2024-08-18 18:55:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 38
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439806808-4oOB1X.tmp
+[2024-08-18 18:55:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/dist/modal.js?simply_static_page=22
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/dist/modal.js?simply_static_page=22
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:103] Filesize: 3429 bytes
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/dist/modal.js
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439806808-4oOB1X.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/themes/generatepress/assets/dist/modal.js
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:20] [class-ss-page.php:118] Checking Content Identical:480337cfc727b896df5500d8e4108b09443b6235===. Value: FALSE
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/feed/
+[2024-08-18 18:55:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 38
+[2024-08-18 18:55:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243981a6a8-Mg2Jic.tmp
+[2024-08-18 18:55:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/feed/?simply_static_page=23
+[2024-08-18 18:55:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/feed/?simply_static_page=23
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:103] Filesize: 1773 bytes
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243981a6a8-Mg2Jic.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/feed/index.xml
+[2024-08-18 18:55:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:21] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-18 18:55:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:21] [class-ss-page.php:118] Checking Content Identical:7636ed8a1c7824072febac109adc0eef34a54883===. Value: FALSE
+[2024-08-18 18:55:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/comments/feed/
+[2024-08-18 18:55:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 38
+[2024-08-18 18:55:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439969661-azh1QO.tmp
+[2024-08-18 18:55:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/comments/feed/?simply_static_page=24
+[2024-08-18 18:55:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/comments/feed/?simply_static_page=24
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 1717 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439969661-azh1QO.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/comments/feed/index.xml
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:31988757da460dfa871f2e45599583ac86d6394a===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-includes/css/dist/block-library/style.min.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439a86a89-dMcLDp.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-includes/css/dist/block-library/style.min.css?simply_static_page=25
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-includes/css/dist/block-library/style.min.css?simply_static_page=25
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 112419 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439a86a89-dMcLDp.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-includes/css/dist/block-library/style.min.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:2b24009fd37e79d4a601e6d53d615fd2cd0a606b===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439a9caab-0Y495e.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css?simply_static_page=26
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css?simply_static_page=26
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 3356 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/components/widget-areas.min.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439a9caab-0Y495e.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:6e6ae044e8392eb26831476b5340808d076ff76f===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/main.min.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439aa8fc7-fxoXdE.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/main.min.css?simply_static_page=27
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/main.min.css?simply_static_page=27
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 19564 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/main.min.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439aa8fc7-fxoXdE.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/themes/generatepress/assets/css/main.min.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:afbd7bc967068d4e804641f4b1df78ab37417144===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439ab97e1-65zoCV.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?simply_static_page=28
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?simply_static_page=28
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 3293 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439ab97e1-65zoCV.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:6d134cea98609f38cea5011d9f16e2199a5b5730===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439ac5f75-NOCVSh.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css?simply_static_page=29
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css?simply_static_page=29
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 2566 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439ac5f75-NOCVSh.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:8e120ea34776bca556b3c6bccb361c45f0a7f964===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/mango-buttons/public/style/mb-button.css
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439ad1ce8-7bx3uR.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/mango-buttons/public/style/mb-button.css?simply_static_page=30
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/mango-buttons/public/style/mb-button.css?simply_static_page=30
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:103] Filesize: 9914 bytes
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/mango-buttons/public/style/mb-button.css
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439ad1ce8-7bx3uR.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/mango-buttons/public/style/mb-button.css
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:22] [class-ss-page.php:118] Checking Content Identical:957f58a1815f265adf2a0e2f9763d2c9649765ce===. Value: FALSE
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/
+[2024-08-18 18:55:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 38
+[2024-08-18 18:55:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439adea99-yPXOkF.tmp
+[2024-08-18 18:55:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/?simply_static_page=31
+[2024-08-18 18:55:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/?simply_static_page=31
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:103] Filesize: 234833 bytes
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439adea99-yPXOkF.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/index.html
+[2024-08-18 18:55:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:23] [class-ss-page.php:118] Checking Content Identical:d47eb4765090c782001e14b234fdaa2f0fa60062===. Value: FALSE
+[2024-08-18 18:55:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/49
+[2024-08-18 18:55:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 38
+[2024-08-18 18:55:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439bb8fe0-RmUCdn.tmp
+[2024-08-18 18:55:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/49?simply_static_page=32
+[2024-08-18 18:55:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/49?simply_static_page=32
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:103] Filesize: 19572 bytes
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/49\index.html
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439bb8fe0-RmUCdn.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/49\index.html
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:24] [class-ss-page.php:118] Checking Content Identical:c2b011df4bb59014fcb1185f99498187d53b9779===. Value: FALSE
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/xmlrpc.php
+[2024-08-18 18:55:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 38
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/gbwhatsappdownload/xmlrpc.php
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/oembed/1.0/embed
+[2024-08-18 18:55:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 38
+[2024-08-18 18:55:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439cd4c84-2n4ZKu.tmp
+[2024-08-18 18:55:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/oembed/1.0/embed?simply_static_page=34
+[2024-08-18 18:55:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/oembed/1.0/embed?simply_static_page=34
+[2024-08-18 18:55:25] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-08-18 18:55:25] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:25] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-18 18:55:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/main-sitemap.xsl
+[2024-08-18 18:55:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 38
+[2024-08-18 18:55:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439dac527-nShlfQ.tmp
+[2024-08-18 18:55:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/main-sitemap.xsl?simply_static_page=35
+[2024-08-18 18:55:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/main-sitemap.xsl?simply_static_page=35
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:103] Filesize: 7758 bytes
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:233] New filename for static page: /main-sitemap.xsl
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439dac527-nShlfQ.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/main-sitemap.xsl
+[2024-08-18 18:55:26] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:26] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-08-18 18:55:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:26] [class-ss-page.php:118] Checking Content Identical:39ec0c74253643664a97f58cb3c3c6d338962d61===. Value: FALSE
+[2024-08-18 18:55:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/post-sitemap.xml
+[2024-08-18 18:55:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 38
+[2024-08-18 18:55:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439e791b9-1pOdud.tmp
+[2024-08-18 18:55:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/post-sitemap.xml?simply_static_page=36
+[2024-08-18 18:55:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/post-sitemap.xml?simply_static_page=36
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:103] Filesize: 773 bytes
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:233] New filename for static page: /post-sitemap.xml
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439e791b9-1pOdud.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/post-sitemap.xml
+[2024-08-18 18:55:27] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:27] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:27] [class-ss-page.php:118] Checking Content Identical:7acf6d2b5e46c461fce8322860c410a064837d78===. Value: FALSE
+[2024-08-18 18:55:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/page-sitemap.xml
+[2024-08-18 18:55:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 38
+[2024-08-18 18:55:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c2439f4abdf-iqS63d.tmp
+[2024-08-18 18:55:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/page-sitemap.xml?simply_static_page=37
+[2024-08-18 18:55:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/page-sitemap.xml?simply_static_page=37
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:103] Filesize: 2122 bytes
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c2439f4abdf-iqS63d.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/page-sitemap.xml
+[2024-08-18 18:55:28] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:28] [class-ss-page.php:118] Checking Content Identical:64c68f2e1f51afb1a9e4228530fbda90faecac83===. Value: FALSE
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category-sitemap.xml
+[2024-08-18 18:55:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 38
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a025e91-mO8FXG.tmp
+[2024-08-18 18:55:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category-sitemap.xml?simply_static_page=38
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category-sitemap.xml?simply_static_page=38
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:103] Filesize: 773 bytes
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:233] New filename for static page: /category-sitemap.xml
+[2024-08-18 18:55:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a025e91-mO8FXG.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category-sitemap.xml
+[2024-08-18 18:55:28] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:29] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:29] [class-ss-page.php:118] Checking Content Identical:8a466b64dbe486d3562bb917167bdb3c20f8bbef===. Value: FALSE
+[2024-08-18 18:55:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 38 pages/files
+[2024-08-18 18:55:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-18 18:55:30] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-18 18:55:30] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:69] Total pages: 65; Pages remaining: 27
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/feed/
+[2024-08-18 18:55:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 65
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a227bff-AwgmZL.tmp
+[2024-08-18 18:55:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/feed/?simply_static_page=39
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/aero-whatsapp-apk/feed/?simply_static_page=39
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:103] Filesize: 929 bytes
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:233] New filename for static page: /category/aero-whatsapp-apk/feed/index.xml
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a227bff-AwgmZL.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/aero-whatsapp-apk/feed/index.xml
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:30] [class-ss-page.php:118] Checking Content Identical:7a7e9ed79ad4c3793e6572d9bd6b76c7774b3804===. Value: FALSE
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/6
+[2024-08-18 18:55:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 65
+[2024-08-18 18:55:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a2ee7a8-TL2QCN.tmp
+[2024-08-18 18:55:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/6?simply_static_page=40
+[2024-08-18 18:55:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/6?simply_static_page=40
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:103] Filesize: 688 bytes
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/6\index.html
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a2ee7a8-TL2QCN.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/6\index.html
+[2024-08-18 18:55:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:31] [class-ss-page.php:118] Checking Content Identical:448b7f6532403ea222e2c335b1cf12e9a919f1d6===. Value: FALSE
+[2024-08-18 18:55:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/feed/
+[2024-08-18 18:55:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 65
+[2024-08-18 18:55:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a3bc56a-g04NVQ.tmp
+[2024-08-18 18:55:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/feed/?simply_static_page=41
+[2024-08-18 18:55:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/gbwhatsapp-apk/feed/?simply_static_page=41
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:103] Filesize: 923 bytes
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:233] New filename for static page: /category/gbwhatsapp-apk/feed/index.xml
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a3bc56a-g04NVQ.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/gbwhatsapp-apk/feed/index.xml
+[2024-08-18 18:55:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:32] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:32] [class-ss-page.php:118] Checking Content Identical:b81a688be71f22db370504806a4c0e90cd88dc9c===. Value: FALSE
+[2024-08-18 18:55:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/3
+[2024-08-18 18:55:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 65
+[2024-08-18 18:55:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a490c2c-VxJSI4.tmp
+[2024-08-18 18:55:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/3?simply_static_page=42
+[2024-08-18 18:55:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/3?simply_static_page=42
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:103] Filesize: 679 bytes
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/3\index.html
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a490c2c-VxJSI4.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/3\index.html
+[2024-08-18 18:55:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:33] [class-ss-page.php:118] Checking Content Identical:d5acd1859857594d989f8c1f925a7fea91ffcfaa===. Value: FALSE
+[2024-08-18 18:55:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/og-whatsapp/feed/
+[2024-08-18 18:55:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 65
+[2024-08-18 18:55:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a55bde5-HyUdK2.tmp
+[2024-08-18 18:55:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/og-whatsapp/feed/?simply_static_page=43
+[2024-08-18 18:55:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/og-whatsapp/feed/?simply_static_page=43
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:103] Filesize: 917 bytes
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:233] New filename for static page: /category/og-whatsapp/feed/index.xml
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a55bde5-HyUdK2.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/og-whatsapp/feed/index.xml
+[2024-08-18 18:55:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:34] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:34] [class-ss-page.php:118] Checking Content Identical:5e8cbf5c659d75bbdd657457fbc21a223aaf439a===. Value: FALSE
+[2024-08-18 18:55:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/5
+[2024-08-18 18:55:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 65
+[2024-08-18 18:55:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a65406d-ll6Ccc.tmp
+[2024-08-18 18:55:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/5?simply_static_page=44
+[2024-08-18 18:55:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/5?simply_static_page=44
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:103] Filesize: 670 bytes
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/5\index.html
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a65406d-ll6Ccc.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/5\index.html
+[2024-08-18 18:55:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:35] [class-ss-page.php:118] Checking Content Identical:fd7f6bb95eae97449b4a6eade60a698f2983c070===. Value: FALSE
+[2024-08-18 18:55:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/whatsapp-plus/feed/
+[2024-08-18 18:55:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 65
+[2024-08-18 18:55:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a74a46f-leudqR.tmp
+[2024-08-18 18:55:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/whatsapp-plus/feed/?simply_static_page=45
+[2024-08-18 18:55:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/whatsapp-plus/feed/?simply_static_page=45
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:103] Filesize: 921 bytes
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:233] New filename for static page: /category/whatsapp-plus/feed/index.xml
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a74a46f-leudqR.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/whatsapp-plus/feed/index.xml
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:36] [class-ss-page.php:118] Checking Content Identical:f0d54e671eda520b02ad212a1e2e9107bcaec0fc===. Value: FALSE
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/4
+[2024-08-18 18:55:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 65
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a81acc5-gMnQll.tmp
+[2024-08-18 18:55:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/4?simply_static_page=46
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/4?simply_static_page=46
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:103] Filesize: 676 bytes
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/4\index.html
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a81acc5-gMnQll.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/4\index.html
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:36] [class-ss-page.php:118] Checking Content Identical:c054f860a2d489044493aa7c026600232acffc46===. Value: FALSE
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/
+[2024-08-18 18:55:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 65
+[2024-08-18 18:55:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243a8dc1da-xFj5mC.tmp
+[2024-08-18 18:55:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/?simply_static_page=47
+[2024-08-18 18:55:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/?simply_static_page=47
+[2024-08-18 18:55:37] [class-ss-url-fetcher.php:103] Filesize: 46461 bytes
+[2024-08-18 18:55:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:55:37] [class-ss-url-fetcher.php:233] New filename for static page: /author/gbwhatsappdownload/index.html
+[2024-08-18 18:55:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243a8dc1da-xFj5mC.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/author/gbwhatsappdownload/index.html
+[2024-08-18 18:55:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:38] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-08-18 18:55:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:50d84ad62290f21a1d9828929bee853dbd47035e===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab14294-IpbfbM.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=48
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=48
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab14294-IpbfbM.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab277da-LcIEYp.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?simply_static_page=49
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?simply_static_page=49
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 1181 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab277da-LcIEYp.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:bc78bb82a39f54d94ea96ff8089c6eb7aa889cb2===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab32123-5p5c5N.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?simply_static_page=50
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?simply_static_page=50
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 2542 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab32123-5p5c5N.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:6c32dedd95da07aa54c3b852d789bb529956427d===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab4563e-bEGJIu.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?simply_static_page=51
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?simply_static_page=51
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 2907 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab4563e-bEGJIu.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:7f45d27c9185b2b4312140f234258bb76573a2c4===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab504ed-iT3Pyc.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?simply_static_page=52
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?simply_static_page=52
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 3988 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/easy-table-of-contents/assets/js/front.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab504ed-iT3Pyc.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:1b5752ee5ceef42dc8c2821b8e2fad0321c3641a===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-includes/js/comment-reply.min.js
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab5e4d8-GZmjRv.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-includes/js/comment-reply.min.js?simply_static_page=53
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-includes/js/comment-reply.min.js?simply_static_page=53
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab5e4d8-GZmjRv.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-includes/js/comment-reply.min.js
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:39] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/2024/08/18/hello-world/feed/
+[2024-08-18 18:55:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 65
+[2024-08-18 18:55:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ab75169-o6rSYM.tmp
+[2024-08-18 18:55:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/2024/08/18/hello-world/feed/?simply_static_page=54
+[2024-08-18 18:55:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/2024/08/18/hello-world/feed/?simply_static_page=54
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:103] Filesize: 1723 bytes
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/18/hello-world/feed/index.xml
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ab75169-o6rSYM.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/2024/08/18/hello-world/feed/index.xml
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:40] [class-ss-page.php:118] Checking Content Identical:1900730f4559ea14e6a20f9e612968cca341971c===. Value: FALSE
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css
+[2024-08-18 18:55:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 65
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ac82820-4QZKVH.tmp
+[2024-08-18 18:55:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?simply_static_page=55
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?simply_static_page=55
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:103] Filesize: 5791 bytes
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ac82820-4QZKVH.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:40] [class-ss-page.php:118] Checking Content Identical:3732af7fb0f22e6aef7343f26ede4825db10196e===. Value: FALSE
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/comments.min.css
+[2024-08-18 18:55:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 65
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ac8fab1-ms7RFv.tmp
+[2024-08-18 18:55:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/comments.min.css?simply_static_page=56
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components/comments.min.css?simply_static_page=56
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:103] Filesize: 1495 bytes
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/components/comments.min.css
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ac8fab1-ms7RFv.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-content/themes/generatepress/assets/css/components/comments.min.css
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:40] [class-ss-page.php:118] Checking Content Identical:a37985eeec4c561cfacb08e6f50fddb50c389440===. Value: FALSE
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/posts/1
+[2024-08-18 18:55:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 65
+[2024-08-18 18:55:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ac9baaa-gtWxGE.tmp
+[2024-08-18 18:55:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/posts/1?simply_static_page=57
+[2024-08-18 18:55:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/posts/1?simply_static_page=57
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:103] Filesize: 1992 bytes
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ac9baaa-gtWxGE.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/posts/1\index.html
+[2024-08-18 18:55:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:41] [class-ss-page.php:118] Checking Content Identical:5716e3a131609e97a473a17f6b04bd6b9bd80993===. Value: FALSE
+[2024-08-18 18:55:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/category/uncategorized/feed/
+[2024-08-18 18:55:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 65
+[2024-08-18 18:55:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ad75080-fiLti9.tmp
+[2024-08-18 18:55:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/category/uncategorized/feed/?simply_static_page=58
+[2024-08-18 18:55:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/category/uncategorized/feed/?simply_static_page=58
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:103] Filesize: 1818 bytes
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ad75080-fiLti9.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/category/uncategorized/feed/index.xml
+[2024-08-18 18:55:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:42] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-18 18:55:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:42] [class-ss-page.php:118] Checking Content Identical:45bd0bccee99917cd6ce36c2cbba38b7798eb80f===. Value: FALSE
+[2024-08-18 18:55:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/1
+[2024-08-18 18:55:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 65
+[2024-08-18 18:55:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243ae4c2ad-HPukbX.tmp
+[2024-08-18 18:55:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/1?simply_static_page=59
+[2024-08-18 18:55:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/categories/1?simply_static_page=59
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:103] Filesize: 676 bytes
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243ae4c2ad-HPukbX.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/1\index.html
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:43] [class-ss-page.php:118] Checking Content Identical:43ae126dfb7113f59289ae99f73ed036a43300a9===. Value: FALSE
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/20
+[2024-08-18 18:55:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 65
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243af19ed7-8GCQPF.tmp
+[2024-08-18 18:55:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/20?simply_static_page=60
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/20?simply_static_page=60
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:103] Filesize: 6789 bytes
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/20\index.html
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243af19ed7-8GCQPF.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/20\index.html
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:43] [class-ss-page.php:118] Checking Content Identical:b63b8429910c21a9c51cc36afa755258fe929456===. Value: FALSE
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/18
+[2024-08-18 18:55:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 65
+[2024-08-18 18:55:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243afebfa2-kJg8o2.tmp
+[2024-08-18 18:55:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/18?simply_static_page=61
+[2024-08-18 18:55:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/18?simply_static_page=61
+[2024-08-18 18:55:44] [class-ss-url-fetcher.php:103] Filesize: 7089 bytes
+[2024-08-18 18:55:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/18\index.html
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243afebfa2-kJg8o2.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/18\index.html
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:45] [class-ss-page.php:118] Checking Content Identical:a9213924131d664a95ed67cbfeee03781d3c026a===. Value: FALSE
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/12
+[2024-08-18 18:55:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 65
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b1054c0-hBVjhf.tmp
+[2024-08-18 18:55:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/12?simply_static_page=62
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/12?simply_static_page=62
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:103] Filesize: 7146 bytes
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/12\index.html
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b1054c0-hBVjhf.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/12\index.html
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:45] [class-ss-page.php:118] Checking Content Identical:1e16e6beaa70e16b9401943ba459f281a906af61===. Value: FALSE
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/10
+[2024-08-18 18:55:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 65
+[2024-08-18 18:55:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b1cc1a5-Ctkx48.tmp
+[2024-08-18 18:55:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/10?simply_static_page=63
+[2024-08-18 18:55:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/10?simply_static_page=63
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:103] Filesize: 7910 bytes
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/10\index.html
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b1cc1a5-Ctkx48.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/10\index.html
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:46] [class-ss-page.php:118] Checking Content Identical:e06061ac22a3892098e40e08e28a93ba85f8f465===. Value: FALSE
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload
+[2024-08-18 18:55:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 65
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b29e410-XTOt4W.tmp
+[2024-08-18 18:55:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload?simply_static_page=64
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload?simply_static_page=64
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:103] Filesize: 365 bytes
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/gbwhatsappdownload/
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/privacy-policy/
+[2024-08-18 18:55:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 65
+[2024-08-18 18:55:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b2a5efa-K39GkN.tmp
+[2024-08-18 18:55:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/privacy-policy/?simply_static_page=65
+[2024-08-18 18:55:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/privacy-policy/?simply_static_page=65
+[2024-08-18 18:55:47] [class-ss-url-fetcher.php:103] Filesize: 56419 bytes
+[2024-08-18 18:55:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:55:47] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/index.html
+[2024-08-18 18:55:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b2a5efa-K39GkN.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/privacy-policy/index.html
+[2024-08-18 18:55:47] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:48] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-08-18 18:55:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:48] [class-ss-page.php:118] Checking Content Identical:66b44d4890ac8d1d10071e142e56eea7d1dc6f44===. Value: FALSE
+[2024-08-18 18:55:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 38 of 65 pages/files
+[2024-08-18 18:55:48] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-18 18:55:48] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-18 18:55:48] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-18 18:55:48] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 4
+[2024-08-18 18:55:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/feed/
+[2024-08-18 18:55:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 69
+[2024-08-18 18:55:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b4a2ba0-Nec7Ko.tmp
+[2024-08-18 18:55:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/feed/?simply_static_page=66
+[2024-08-18 18:55:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/author/gbwhatsappdownload/feed/?simply_static_page=66
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:103] Filesize: 1826 bytes
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:233] New filename for static page: /author/gbwhatsappdownload/feed/index.xml
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b4a2ba0-Nec7Ko.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/author/gbwhatsappdownload/feed/index.xml
+[2024-08-18 18:55:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:49] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-18 18:55:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:49] [class-ss-page.php:118] Checking Content Identical:9ecd1dfc6b9f2c9a556ec5019b3605aecf994258===. Value: FALSE
+[2024-08-18 18:55:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/users/1
+[2024-08-18 18:55:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 69
+[2024-08-18 18:55:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b5b47d6-F5e7y8.tmp
+[2024-08-18 18:55:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/users/1?simply_static_page=67
+[2024-08-18 18:55:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/users/1?simply_static_page=67
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:103] Filesize: 679 bytes
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b5b47d6-F5e7y8.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/users/1\index.html
+[2024-08-18 18:55:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:50] [class-ss-page.php:118] Checking Content Identical:9ef37ff9d983c997fed42a36ed0b935768c8bb0c===. Value: FALSE
+[2024-08-18 18:55:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/privacy-policy/feed/
+[2024-08-18 18:55:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 69
+[2024-08-18 18:55:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b697f88-IbCy5n.tmp
+[2024-08-18 18:55:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/privacy-policy/feed/?simply_static_page=68
+[2024-08-18 18:55:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/privacy-policy/feed/?simply_static_page=68
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:103] Filesize: 769 bytes
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/feed/index.xml
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b697f88-IbCy5n.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/privacy-policy/feed/index.xml
+[2024-08-18 18:55:51] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:51] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-18 18:55:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:51] [class-ss-page.php:118] Checking Content Identical:9eba27dc5c43b9ecf2a248c35ce0688b0f4b9d4a===. Value: FALSE
+[2024-08-18 18:55:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/3
+[2024-08-18 18:55:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 69
+[2024-08-18 18:55:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b76f6b7-59mopT.tmp
+[2024-08-18 18:55:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/3?simply_static_page=69
+[2024-08-18 18:55:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/wp-json/wp/v2/pages/3?simply_static_page=69
+[2024-08-18 18:55:52] [class-ss-url-fetcher.php:103] Filesize: 12231 bytes
+[2024-08-18 18:55:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-18 18:55:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/3\index.html
+[2024-08-18 18:55:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b76f6b7-59mopT.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/3\index.html
+[2024-08-18 18:55:52] [class-ss-rank-math-sitemap-handler.php:82] Copied C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap_index.xml to C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/sitemap.xml
+[2024-08-18 18:55:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-18 18:55:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-18 18:55:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-18 18:55:52] [class-ss-page.php:118] Checking Content Identical:3dec7df1404bb74fca592f2315d477b62fa7174d===. Value: FALSE
+[2024-08-18 18:55:52] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 65 of 69 pages/files
+[2024-08-18 18:55:52] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-18 18:55:53] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-18 18:55:53] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-18 18:55:53] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 0
+[2024-08-18 18:55:53] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 69 of 69 pages/files
+[2024-08-18 18:55:53] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-08-18 18:55:53] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-08-18 18:55:53] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-08-18 18:55:53] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-08-18 18:55:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ravi\AppData\Local\Temp/66c243b92c280-mPOWvm.tmp
+[2024-08-18 18:55:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/gbwhatsappdownload/1724007354?simply_static_page=0
+[2024-08-18 18:55:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/gbwhatsappdownload/1724007354?simply_static_page=0
+[2024-08-18 18:55:54] [class-ss-url-fetcher.php:103] Filesize: 41625 bytes
+[2024-08-18 18:55:54] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-18 18:55:54] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-08-18 18:55:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ravi\AppData\Local\Temp/66c243b92c280-mPOWvm.tmp to C:\xampp\htdocs\gbwhatsappdownload/wp-content/uploads\simply-static\temp-files/simply-static-1-1724007243\404/index.html
+[2024-08-18 18:55:54] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-08-18 18:55:54] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-08-18 18:55:55] [class-ss-page.php:118] Checking Content Identical:f55058df8360f5f894cf8cbc9f1dbb70ddf61008===. Value: FALSE
+[2024-08-18 18:55:55] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-08-18 18:55:55] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-08-18 18:55:55] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-08-18 18:55:55] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-08-18 18:55:55] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 64 files
+[2024-08-18 18:55:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/aero-whatsapp-apk
+[2024-08-18 18:55:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/gbwhatsapp-apk
+[2024-08-18 18:55:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/og-whatsapp
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/whatsapp-plus
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/2024/08/18/hello-world
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/uncategorized
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/terms-of-use
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/dmca
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/about-us
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/disclaimer
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/2024/08
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/2024/08
+[2024-08-18 18:55:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/2024/08
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/2024/08
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-includes/js/jquery
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/js
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/themes/generatepress/assets/js
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/themes/generatepress/assets/dist
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/comments/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-includes/css/dist/block-library
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/themes/generatepress/assets/css
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/gp-premium/blog/functions/css
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/gp-premium/menu-plus/functions/css
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/mango-buttons/public/style
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/49/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/49/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/aero-whatsapp-apk/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/6/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories/6/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/gbwhatsapp-apk/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/3/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories/3/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/og-whatsapp/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/5/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories/5/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/whatsapp-plus/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/4/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories/4/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/author/gbwhatsappdownload
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-includes/js/jquery
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/js-cookie
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/js
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-includes/js
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/2024/08/18/hello-world/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:64. Processed Pages: 50
+[2024-08-18 18:55:57] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 64 files
+[2024-08-18 18:55:57] [trait-can-process-pages.php:103] Total pages: 64; Pages remaining: 14
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-08-18 18:55:57] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 14 of 64 files
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/plugins/easy-table-of-contents/assets/css
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-content/themes/generatepress/assets/css/components
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/posts
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/posts/1/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/category/uncategorized/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/categories/1/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/categories/1/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/20/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/20/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/18/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/18/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/12/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/12/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/10/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/10/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/privacy-policy
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/author/gbwhatsappdownload/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/users
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/users/1/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/privacy-policy/feed
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/gbwhatsappdownload/wp-content/uploads/simply-static/temp-files/simply-static-1-1724007243/wp-json/wp/v2/pages/3/index.html to C:/xampp/htdocs/gbwhatsappdownload/wp-json/wp/v2/pages/3/index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:64. Processed Pages: 64
+[2024-08-18 18:55:57] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 64 of 64 files
+[2024-08-18 18:55:57] [trait-can-process-pages.php:103] Total pages: 64; Pages remaining: 0
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/gbwhatsappdownload\404\index.html
+[2024-08-18 18:55:57] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-08-18 18:55:57] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://kumar5445.github.io/gbwhatsappdownload/" target="_blank">https://kumar5445.github.io/gbwhatsappdownload/</a>
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-08-18 18:55:57] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-08-18 18:55:57] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-08-18 18:55:57] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:54
